@@ -1,6 +1,6 @@
-update=Sat 01 Feb 2014 10:31:43 PM PST
+update=Sun 02 Feb 2014 12:13:00 PM PST
 version=1
-last_client=cvpcb
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -40,6 +40,11 @@ LibName16=lib/bumps
 LibDir=
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 PageLayoutDescrFile=
@@ -83,8 +88,3 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=lib/BUMPS
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
