@@ -1,4 +1,4 @@
-update=Sat 01 Feb 2014 06:39:46 PM PST
+update=Sat 01 Feb 2014 06:43:13 PM PST
 version=1
 last_client=eeschema
 [cvpcb]
@@ -50,7 +50,7 @@ version=1
 PageLayoutDescrFile=
 SubpartIdSeparator=0
 SubpartFirstId=65
-LibDir=/home/hzeller/src/kicad/kicad-library-master
+LibDir=/home/hzeller/src/kicad/kicad-library-master/library;/home/hzeller/src/kicad/kicad-library-master/template
 NetFmtName=
 RptD_X=0
 RptD_Y=100
