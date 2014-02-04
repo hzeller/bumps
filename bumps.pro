@@ -1,4 +1,4 @@
-update=Mon 03 Feb 2014 06:26:24 PM PST
+update=Mon 03 Feb 2014 09:02:15 PM PST
 version=1
 last_client=eeschema
 [pcbnew]
@@ -88,4 +88,3 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=lib/BUMPS
-LibName32=lib/isolators
