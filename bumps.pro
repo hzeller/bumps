@@ -1,4 +1,4 @@
-update=Sun 02 Feb 2014 12:13:00 PM PST
+update=Mon 03 Feb 2014 06:26:24 PM PST
 version=1
 last_client=eeschema
 [pcbnew]
@@ -50,7 +50,7 @@ version=1
 PageLayoutDescrFile=
 SubpartIdSeparator=0
 SubpartFirstId=65
-LibDir=/home/hzeller/src/kicad/kicad-library-master/library;/home/hzeller/src/kicad/kicad-library-master/template
+LibDir=
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -88,3 +88,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=lib/BUMPS
+LibName32=lib/isolators
