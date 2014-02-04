@@ -30,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:BUMPS
+LIBS:isolators
 LIBS:bumps-cache
 EELAYER 24 0
 EELAYER END
