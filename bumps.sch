@@ -78,7 +78,7 @@ F 3 "DOCUMENTATION" H 3350 350 50  0001 C CNN
 	1    3350 1700
 	1    0    0    -1  
 $EndComp
-Text GLabel 5800 4550 2    60   Input ~ 0
+Text GLabel 5800 4550 2    50   Input ~ 0
 VDD_3V3
 $Comp
 L GND #PWR01
@@ -146,7 +146,7 @@ F 3 "" H 5800 4050 60  0001 C CNN
 	1    5800 4050
 	1    0    0    -1  
 $EndComp
-Text GLabel 5800 3950 2    60   Input ~ 0
+Text GLabel 5800 3950 2    50   Input ~ 0
 VMOT
 $Comp
 L CONN_4X2 P3
@@ -159,7 +159,7 @@ F 3 "" H 6200 4300 60  0001 C CNN
 	1    6200 4300
 	1    0    0    -1  
 $EndComp
-Text GLabel 4300 3950 0    60   Input ~ 0
+Text GLabel 4300 3950 0    50   Input ~ 0
 ~EN
 $Comp
 L CONN_3X2 P1
@@ -172,9 +172,9 @@ F 3 "" H 3500 4200 60  0001 C CNN
 	1    3500 4200
 	1    0    0    -1  
 $EndComp
-Text GLabel 3100 3850 1    60   Input ~ 0
+Text GLabel 3100 3850 1    50   Input ~ 0
 VDD_3V3
-Text GLabel 4100 1250 2    60   Output ~ 0
+Text GLabel 4100 1250 2    50   Output ~ 0
 ~EN
 $Comp
 L R R1
@@ -209,7 +209,7 @@ F 3 "DOCUMENTATION" H 9200 4300 50  0001 C CNN
 	1    9200 4800
 	1    0    0    -1  
 $EndComp
-Text GLabel 9950 5050 2    60   Input ~ 0
+Text GLabel 9950 5050 2    50   Input ~ 0
 VDD_3V3
 $Comp
 L GND #PWR08
@@ -233,7 +233,7 @@ F 3 "" H 9950 4550 60  0001 C CNN
 	1    9950 4550
 	1    0    0    -1  
 $EndComp
-Text GLabel 9950 4450 2    60   Input ~ 0
+Text GLabel 9950 4450 2    50   Input ~ 0
 VMOT
 $Comp
 L CONN_4X2 P10
@@ -246,7 +246,7 @@ F 3 "" H 10350 4800 60  0001 C CNN
 	1    10350 4800
 	1    0    0    -1  
 $EndComp
-Text GLabel 8450 4450 0    60   Input ~ 0
+Text GLabel 8450 4450 0    50   Input ~ 0
 ~EN
 $Comp
 L CONN_3X2 P7
@@ -259,7 +259,7 @@ F 3 "" H 7650 4700 60  0001 C CNN
 	1    7650 4700
 	1    0    0    -1  
 $EndComp
-Text GLabel 7250 4350 1    60   Input ~ 0
+Text GLabel 7250 4350 1    50   Input ~ 0
 VDD_3V3
 $Comp
 L R R5
@@ -294,7 +294,7 @@ F 3 "DOCUMENTATION" H 9200 1050 50  0001 C CNN
 	1    9200 1550
 	1    0    0    -1  
 $EndComp
-Text GLabel 9950 1800 2    60   Input ~ 0
+Text GLabel 9950 1800 2    50   Input ~ 0
 VDD_3V3
 $Comp
 L GND #PWR011
@@ -318,7 +318,7 @@ F 3 "" H 9950 1300 60  0001 C CNN
 	1    9950 1300
 	1    0    0    -1  
 $EndComp
-Text GLabel 9950 1200 2    60   Input ~ 0
+Text GLabel 9950 1200 2    50   Input ~ 0
 VMOT
 $Comp
 L CONN_4X2 P11
@@ -331,7 +331,7 @@ F 3 "" H 10350 1550 60  0001 C CNN
 	1    10350 1550
 	1    0    0    -1  
 $EndComp
-Text GLabel 8450 1200 0    60   Input ~ 0
+Text GLabel 8450 1200 0    50   Input ~ 0
 ~EN
 $Comp
 L CONN_3X2 P5
@@ -344,7 +344,7 @@ F 3 "" H 7650 1450 60  0001 C CNN
 	1    7650 1450
 	1    0    0    -1  
 $EndComp
-Text GLabel 7250 1100 1    60   Input ~ 0
+Text GLabel 7250 1100 1    50   Input ~ 0
 VDD_3V3
 $Comp
 L R R3
@@ -379,7 +379,7 @@ F 3 "DOCUMENTATION" H 9200 2700 50  0001 C CNN
 	1    9200 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 9950 3450 2    60   Input ~ 0
+Text GLabel 9950 3450 2    50   Input ~ 0
 VDD_3V3
 $Comp
 L GND #PWR014
@@ -403,7 +403,7 @@ F 3 "" H 9950 2950 60  0001 C CNN
 	1    9950 2950
 	1    0    0    -1  
 $EndComp
-Text GLabel 9950 2850 2    60   Input ~ 0
+Text GLabel 9950 2850 2    50   Input ~ 0
 VMOT
 $Comp
 L CONN_4X2 P12
@@ -416,7 +416,7 @@ F 3 "" H 10350 3200 60  0001 C CNN
 	1    10350 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 8450 2850 0    60   Input ~ 0
+Text GLabel 8450 2850 0    50   Input ~ 0
 ~EN
 $Comp
 L CONN_3X2 P6
@@ -429,7 +429,7 @@ F 3 "" H 7650 3100 60  0001 C CNN
 	1    7650 3100
 	1    0    0    -1  
 $EndComp
-Text GLabel 7250 2750 1    60   Input ~ 0
+Text GLabel 7250 2750 1    50   Input ~ 0
 VDD_3V3
 $Comp
 L R R4
@@ -464,7 +464,7 @@ F 3 "DOCUMENTATION" H 5050 5550 50  0001 C CNN
 	1    5050 6050
 	1    0    0    -1  
 $EndComp
-Text GLabel 5800 6300 2    60   Input ~ 0
+Text GLabel 5800 6300 2    50   Input ~ 0
 VDD_3V3
 $Comp
 L GND #PWR017
@@ -488,7 +488,7 @@ F 3 "" H 5800 5800 60  0001 C CNN
 	1    5800 5800
 	1    0    0    -1  
 $EndComp
-Text GLabel 5800 5700 2    60   Input ~ 0
+Text GLabel 5800 5700 2    50   Input ~ 0
 VMOT
 $Comp
 L CONN_4X2 P4
@@ -501,7 +501,7 @@ F 3 "" H 6200 6050 60  0001 C CNN
 	1    6200 6050
 	1    0    0    -1  
 $EndComp
-Text GLabel 4300 5700 0    60   Input ~ 0
+Text GLabel 4300 5700 0    50   Input ~ 0
 ~EN
 $Comp
 L CONN_3X2 P2
@@ -514,7 +514,7 @@ F 3 "" H 3500 5950 60  0001 C CNN
 	1    3500 5950
 	1    0    0    -1  
 $EndComp
-Text GLabel 3100 5600 1    60   Input ~ 0
+Text GLabel 3100 5600 1    50   Input ~ 0
 VDD_3V3
 $Comp
 L R R2
@@ -538,57 +538,57 @@ F 3 "" H 3700 6650 60  0001 C CNN
 	1    3700 6650
 	1    0    0    -1  
 $EndComp
-Text GLabel 4100 1750 2    60   Output ~ 0
+Text GLabel 4100 1750 2    50   Output ~ 0
 STEP_X
-Text GLabel 8450 1800 0    60   Input ~ 0
+Text GLabel 8450 1800 0    50   Input ~ 0
 STEP_X
-Text GLabel 2600 1750 0    60   Output ~ 0
+Text GLabel 2600 1750 0    50   Output ~ 0
 STEP_Y
-Text GLabel 8450 3450 0    60   Input ~ 0
+Text GLabel 8450 3450 0    50   Input ~ 0
 STEP_Y
-Text GLabel 4100 1550 2    60   Output ~ 0
+Text GLabel 4100 1550 2    50   Output ~ 0
 STEP_Z
-Text GLabel 2600 1550 0    60   Output ~ 0
+Text GLabel 2600 1550 0    50   Output ~ 0
 STEP_E
-Text GLabel 4100 2750 2    60   Output ~ 0
+Text GLabel 4100 2750 2    50   Output ~ 0
 STEP_A
-Text GLabel 4100 1950 2    60   Output ~ 0
+Text GLabel 4100 1950 2    50   Output ~ 0
 STEP_B
-Text GLabel 4100 1850 2    60   Output ~ 0
+Text GLabel 4100 1850 2    50   Output ~ 0
 STEP_C
-Text GLabel 2600 2750 0    60   Output ~ 0
+Text GLabel 2600 2750 0    50   Output ~ 0
 STEP_U
-Text GLabel 6600 1250 2    60   Output ~ 0
+Text GLabel 6600 1250 2    50   Output ~ 0
 DIR_X
-Text GLabel 5100 1250 0    60   Output ~ 0
+Text GLabel 5100 1250 0    50   Output ~ 0
 DIR_Y
-Text GLabel 6600 1450 2    60   Output ~ 0
+Text GLabel 6600 1450 2    50   Output ~ 0
 DIR_Z
-Text GLabel 5100 1450 0    60   Output ~ 0
+Text GLabel 5100 1450 0    50   Output ~ 0
 DIR_E
-Text GLabel 2600 1450 0    60   Output ~ 0
+Text GLabel 2600 1450 0    50   Output ~ 0
 DIR_A
-Text GLabel 2600 1850 0    60   Output ~ 0
+Text GLabel 2600 1850 0    50   Output ~ 0
 DIR_B
-Text GLabel 4100 1350 2    60   Output ~ 0
+Text GLabel 4100 1350 2    50   Output ~ 0
 DIR_C
-Text GLabel 4100 1450 2    60   Output ~ 0
+Text GLabel 4100 1450 2    50   Output ~ 0
 DIR_U
-Text GLabel 4300 4550 0    60   Input ~ 0
+Text GLabel 4300 4550 0    50   Input ~ 0
 STEP_E
-Text GLabel 4300 4650 0    60   Input ~ 0
+Text GLabel 4300 4650 0    50   Input ~ 0
 DIR_E
-Text GLabel 4300 6400 0    60   Input ~ 0
+Text GLabel 4300 6400 0    50   Input ~ 0
 DIR_A
-Text GLabel 4300 6300 0    60   Input ~ 0
+Text GLabel 4300 6300 0    50   Input ~ 0
 STEP_A
-Text GLabel 8450 1900 0    60   Input ~ 0
+Text GLabel 8450 1900 0    50   Input ~ 0
 DIR_X
-Text GLabel 8450 3550 0    60   Input ~ 0
+Text GLabel 8450 3550 0    50   Input ~ 0
 DIR_Y
-Text GLabel 8450 5050 0    60   Input ~ 0
+Text GLabel 8450 5050 0    50   Input ~ 0
 STEP_Z
-Text GLabel 8450 5150 0    60   Input ~ 0
+Text GLabel 8450 5150 0    50   Input ~ 0
 DIR_Z
 $Comp
 L CONN_2 P15
@@ -601,11 +601,11 @@ F 3 "" H 9850 6250 60  0000 C CNN
 	1    9850 6250
 	-1   0    0    -1  
 $EndComp
-Text GLabel 7850 6000 1    60   Output ~ 0
+Text GLabel 7850 6000 1    50   Output ~ 0
 END_X
-Text GLabel 9250 6000 1    60   Output ~ 0
+Text GLabel 9250 6000 1    50   Output ~ 0
 END_Y
-Text GLabel 10700 6000 1    60   Output ~ 0
+Text GLabel 10700 6000 1    50   Output ~ 0
 END_Z
 Wire Wire Line
 	5800 4650 5800 4700
@@ -732,11 +732,11 @@ Wire Wire Line
 Wire Wire Line
 	3700 6150 4050 5800
 Connection ~ 4050 5800
-Text GLabel 5100 1550 0    60   Input ~ 0
+Text GLabel 5100 1550 0    50   Input ~ 0
 END_X
-Text GLabel 2600 1250 0    60   Input ~ 0
+Text GLabel 2600 1250 0    50   Input ~ 0
 END_Y
-Text GLabel 2600 1350 0    60   Input ~ 0
+Text GLabel 2600 1350 0    50   Input ~ 0
 END_Z
 $Comp
 L CAPAPOL C1
@@ -749,7 +749,7 @@ F 3 "" H 5050 3550 300 0000 C CNN
 	1    5050 3550
 	0    1    1    0   
 $EndComp
-Text GLabel 5250 3550 2    60   Input ~ 0
+Text GLabel 5250 3550 2    50   Input ~ 0
 VMOT
 $Comp
 L GND #PWR020
@@ -775,7 +775,7 @@ F 3 "" H 5000 5300 300 0000 C CNN
 	1    5000 5300
 	0    1    1    0   
 $EndComp
-Text GLabel 5200 5300 2    60   Input ~ 0
+Text GLabel 5200 5300 2    50   Input ~ 0
 VMOT
 $Comp
 L GND #PWR021
@@ -801,7 +801,7 @@ F 3 "" H 9050 4050 300 0000 C CNN
 	1    9050 4050
 	0    1    1    0   
 $EndComp
-Text GLabel 9250 4050 2    60   Input ~ 0
+Text GLabel 9250 4050 2    50   Input ~ 0
 VMOT
 $Comp
 L GND #PWR022
@@ -827,7 +827,7 @@ F 3 "" H 9050 2450 300 0000 C CNN
 	1    9050 2450
 	0    1    1    0   
 $EndComp
-Text GLabel 9250 2450 2    60   Input ~ 0
+Text GLabel 9250 2450 2    50   Input ~ 0
 VMOT
 $Comp
 L GND #PWR023
@@ -853,7 +853,7 @@ F 3 "" H 9050 800 300 0000 C CNN
 	1    9050 800 
 	0    1    1    0   
 $EndComp
-Text GLabel 9250 800  2    60   Input ~ 0
+Text GLabel 9250 800  2    50   Input ~ 0
 VMOT
 $Comp
 L GND #PWR024
@@ -879,7 +879,7 @@ F 3 "" H 750 7250 60  0000 C CNN
 	1    750  7250
 	-1   0    0    1   
 $EndComp
-Text GLabel 1950 7150 2    60   Output ~ 0
+Text GLabel 1950 7150 2    50   Output ~ 0
 VMOT
 $Comp
 L GND #PWR025
@@ -911,9 +911,9 @@ Wire Wire Line
 	1100 7150 1250 7150
 Wire Wire Line
 	1750 7150 1950 7150
-Text GLabel 5100 1050 0    60   Output ~ 0
+Text GLabel 5100 1050 0    50   Output ~ 0
 PWM_1
-Text GLabel 6600 1050 2    60   Output ~ 0
+Text GLabel 6600 1050 2    50   Output ~ 0
 PWM_2
 $Comp
 L MOSFET_N Q2
@@ -926,7 +926,7 @@ F 3 "" H 1500 4300 60  0000 C CNN
 	1    1500 4300
 	-1   0    0    -1  
 $EndComp
-Text GLabel 750  3850 2    60   Input ~ 0
+Text GLabel 750  3850 2    50   Input ~ 0
 VMOT
 $Comp
 L MOSFET_N Q1
@@ -961,9 +961,9 @@ F 3 "" H 1400 4600 60  0001 C CNN
 	1    1400 4600
 	-1   0    0    -1  
 $EndComp
-Text GLabel 2400 4300 2    60   Input ~ 0
+Text GLabel 2400 4300 2    50   Input ~ 0
 PWM_2
-Text GLabel 2400 3500 2    60   Input ~ 0
+Text GLabel 2400 3500 2    50   Input ~ 0
 PWM_1
 $Comp
 L MC34063 U6
@@ -987,11 +987,11 @@ F 3 "" H 1600 6650 60  0001 C CNN
 	1    1600 6650
 	1    0    0    -1  
 $EndComp
-Text GLabel 1450 4950 0    60   Input ~ 0
+Text GLabel 1450 4950 0    50   Input ~ 0
 VMOT
-Text GLabel 2600 950  0    60   Input ~ 0
+Text GLabel 2600 950  0    50   Input ~ 0
 VDD_5V
-Text GLabel 4100 950  2    60   Input ~ 0
+Text GLabel 4100 950  2    50   Input ~ 0
 VDD_5V
 $Comp
 L R R7
@@ -1096,7 +1096,7 @@ Wire Wire Line
 	2100 6150 2100 6350
 Wire Wire Line
 	1600 4950 1600 5200
-Text GLabel 2900 6350 2    60   Output ~ 0
+Text GLabel 2900 6350 2    50   Output ~ 0
 VDD_5V
 $Comp
 L C C6
@@ -1429,7 +1429,7 @@ F 3 "" H 750 4200 60  0000 C CNN
 	1    750  4200
 	-1   0    0    1   
 $EndComp
-Text GLabel 750  4650 2    60   Input ~ 0
+Text GLabel 750  4650 2    50   Input ~ 0
 VMOT
 $Comp
 L Vreg U7
@@ -1442,9 +1442,9 @@ F 3 "" H 3500 7250 60  0000 C CNN
 	1    3500 7250
 	1    0    0    -1  
 $EndComp
-Text GLabel 3050 7150 0    60   Input ~ 0
+Text GLabel 3050 7150 0    50   Input ~ 0
 VDD_5V
-Text GLabel 4100 7150 2    60   Output ~ 0
+Text GLabel 4100 7150 2    50   Output ~ 0
 VDD_3V3
 $Comp
 L GND #PWR035
@@ -1458,22 +1458,22 @@ F 3 "" H 3500 7600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 2800 6350
-Text GLabel 7600 5600 0    60   Input ~ 0
+Text GLabel 7600 5600 0    50   Input ~ 0
 VDD_3V3
 Connection ~ 8000 5600
 Connection ~ 9400 5600
 Connection ~ 8200 5600
 Connection ~ 10850 5600
 Connection ~ 9600 5600
-Text GLabel 4100 2350 2    60   Output ~ 0
+Text GLabel 4100 2350 2    50   Output ~ 0
 AGND
-Text GLabel 4100 2250 2    60   Output ~ 0
+Text GLabel 4100 2250 2    50   Output ~ 0
 VDD_ADC
-Text GLabel 2600 2650 0    60   Input ~ 0
+Text GLabel 2600 2650 0    50   Input ~ 0
 TEMP_1
-Text GLabel 4100 2650 2    60   Input ~ 0
+Text GLabel 4100 2650 2    50   Input ~ 0
 TEMP_2
-Text GLabel 2600 2550 0    60   Input ~ 0
+Text GLabel 2600 2550 0    50   Input ~ 0
 TEMP_3
 $Comp
 L CONN_2 P14
@@ -1497,9 +1497,9 @@ F 3 "" H 1450 1600 30  0000 C CNN
 	1    1450 1600
 	0    -1   1    0   
 $EndComp
-Text GLabel 1700 1600 2    60   Input ~ 0
+Text GLabel 1700 1600 2    50   Input ~ 0
 VDD_ADC
-Text GLabel 1750 2150 2    60   Input ~ 0
+Text GLabel 1750 2150 2    50   Input ~ 0
 AGND
 $Comp
 L CAPAPOL C10
@@ -1523,7 +1523,7 @@ F 3 "" H 1700 1950 60  0000 C CNN
 	1    1700 1950
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1750 1750 2    60   Output ~ 0
+Text GLabel 1750 1750 2    50   Output ~ 0
 TEMP_2
 Wire Wire Line
 	1100 2050 1100 2150
@@ -1553,9 +1553,9 @@ Wire Wire Line
 	6100 7550 6500 7550
 Wire Wire Line
 	6100 7150 6500 7150
-Text GLabel 6100 7150 0    60   Input ~ 0
+Text GLabel 6100 7150 0    50   Input ~ 0
 VDD_ADC
-Text GLabel 6100 7550 0    60   Input ~ 0
+Text GLabel 6100 7550 0    50   Input ~ 0
 AGND
 Connection ~ 6200 7150
 Connection ~ 6200 7550
@@ -1598,9 +1598,9 @@ F 3 "" H 1450 700 30  0000 C CNN
 	1    1450 700 
 	0    -1   1    0   
 $EndComp
-Text GLabel 1700 700  2    60   Input ~ 0
+Text GLabel 1700 700  2    50   Input ~ 0
 VDD_ADC
-Text GLabel 1750 1250 2    60   Input ~ 0
+Text GLabel 1750 1250 2    50   Input ~ 0
 AGND
 $Comp
 L CAPAPOL C9
@@ -1624,7 +1624,7 @@ F 3 "" H 1700 1050 60  0000 C CNN
 	1    1700 1050
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1750 850  2    60   Output ~ 0
+Text GLabel 1750 850  2    50   Output ~ 0
 TEMP_1
 Wire Wire Line
 	1100 1150 1100 1250
@@ -1667,9 +1667,9 @@ F 3 "" H 1450 2500 30  0000 C CNN
 	1    1450 2500
 	0    -1   1    0   
 $EndComp
-Text GLabel 1700 2500 2    60   Input ~ 0
+Text GLabel 1700 2500 2    50   Input ~ 0
 VDD_ADC
-Text GLabel 1750 3050 2    60   Input ~ 0
+Text GLabel 1750 3050 2    50   Input ~ 0
 AGND
 $Comp
 L CAPAPOL C11
@@ -1693,7 +1693,7 @@ F 3 "" H 1700 2850 60  0000 C CNN
 	1    1700 2850
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1750 2650 2    60   Output ~ 0
+Text GLabel 1750 2650 2    50   Output ~ 0
 TEMP_3
 Wire Wire Line
 	1100 2950 1100 3050
@@ -1741,14 +1741,14 @@ F 3 "" H 4000 7550 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	4100 2450 4100 2550
-Text GLabel 4200 2500 2    60   Input ~ 0
+Text GLabel 4200 2500 2    50   Input ~ 0
 AGND
 Wire Wire Line
 	4100 2500 4200 2500
 Connection ~ 4100 2500
 Wire Wire Line
 	2600 2350 2600 2450
-Text GLabel 2550 2400 0    60   Input ~ 0
+Text GLabel 2550 2400 0    50   Input ~ 0
 AGND
 Wire Wire Line
 	2550 2400 2600 2400
@@ -1898,8 +1898,8 @@ F 3 "" H 5200 7350 60  0000 C CNN
 	1    5200 7350
 	0    -1   -1   0   
 $EndComp
-Text GLabel 5200 7150 0    60   Input ~ 0
+Text GLabel 5200 7150 0    50   Input ~ 0
 VDD_5V
-Text GLabel 5200 7550 0    60   Input ~ 0
+Text GLabel 5200 7550 0    50   Input ~ 0
 VDD_3V3
 $EndSCHEMATC
