@@ -404,7 +404,7 @@ Text GLabel 5800 5700 2    50   Input ~ 0
 VMOT
 Text GLabel 4300 5700 0    50   Input ~ 0
 ~EN
-Text GLabel 3100 5700 1    50   Input ~ 0
+Text GLabel 3100 5600 1    50   Input ~ 0
 VDD_3V3
 $Comp
 L R R2
