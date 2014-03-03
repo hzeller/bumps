@@ -18,8 +18,8 @@ Features
    * Local 3.3V power supply to not put any strain on BBB 3.3V
    * 5 slots for [Pololu-compatible][pololu-url] stepper boards.
    * 2 high power PWM (Motor voltage, ~15A)
-   * 2 Open Collector PWM for smaller loads (~2A)
-   * 2 Open Collector Auxilliary Outputs (~2A)
+   * 2 Open Collector PWM for smaller loads (Up to 20V, ~2A)
+   * 2 Open Collector Auxilliary Outputs (Up to 20V, ~2A)
    * 3 endswitch inputs.
    * 3 temperature sensor inputs.
 
