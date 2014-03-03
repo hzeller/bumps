@@ -17,7 +17,9 @@ Features
    * 5V switching supply to power the BeagleBone from motor voltage (12-36V).
    * Local 3.3V power supply to not put any strain on BBB 3.3V
    * 5 slots for [Pololu-compatible][pololu-url] stepper boards.
-   * 2 high power PWM (2 more planned)
+   * 2 high power PWM (Motor voltage, ~15A)
+   * 2 Open Collector PWM for smaller loads (~5A)
+   * 2 Open Collector Outputs (~5A)
    * 3 endswitch inputs.
    * 3 temperature sensor inputs.
 
