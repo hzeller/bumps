@@ -723,7 +723,7 @@ F 1 "MPower" V 850 9150 40  0000 C CNN
 F 2 "Connect:AK300-2" H 800 9150 60  0001 C CNN
 F 3 "" H 800 9150 60  0000 C CNN
 	1    800  9150
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Text GLabel 2000 9050 2    50   Output ~ 0
 VMOT
