@@ -2,11 +2,11 @@
 
   (general
     (links 310)
-    (no_connects 116)
+    (no_connects 115)
     (area 42.961076 19.039999 162.316583 94.234)
     (thickness 1.6)
     (drawings 19)
-    (tracks 629)
+    (tracks 634)
     (zones 0)
     (modules 125)
     (nets 160)
@@ -28,7 +28,7 @@
   )
 
   (setup
-    (last_trace_width 0.508)
+    (last_trace_width 1.27)
     (user_trace_width 0.3048)
     (user_trace_width 0.508)
     (user_trace_width 1.27)
@@ -5630,6 +5630,10 @@
   (segment (start 95.73768 36.65982) (end 95.885 36.5125) (width 0.508) (layer F.Cu) (net 14) (tstamp 5313EA0A))
   (segment (start 89.535 36.5125) (end 89.68232 36.65982) (width 0.508) (layer F.Cu) (net 14))
   (segment (start 89.68232 36.65982) (end 92.71 36.65982) (width 0.508) (layer F.Cu) (net 14) (tstamp 5313EA07))
+  (segment (start 111.252 64.77) (end 111.125 64.897) (width 1.27) (layer B.Cu) (net 15))
+  (segment (start 108.585 71.755) (end 107.315 71.755) (width 1.27) (layer B.Cu) (net 15) (tstamp 531588A9) (status 800000))
+  (segment (start 111.125 69.215) (end 108.585 71.755) (width 1.27) (layer B.Cu) (net 15) (tstamp 5315889A))
+  (segment (start 111.125 64.897) (end 111.125 69.215) (width 1.27) (layer B.Cu) (net 15) (tstamp 53158892))
   (segment (start 66.675 71.755) (end 66.675 69.85) (width 0.508) (layer B.Cu) (net 15) (status 400000))
   (segment (start 61.722 69.85) (end 60.96 69.088) (width 0.508) (layer B.Cu) (net 15) (tstamp 53158669))
   (segment (start 66.675 69.85) (end 61.722 69.85) (width 0.508) (layer B.Cu) (net 15) (tstamp 53158663))
@@ -5648,7 +5652,8 @@
   (segment (start 60.96 69.85) (end 60.96 69.088) (width 1.27) (layer F.Cu) (net 15) (tstamp 5315864D))
   (segment (start 60.96 69.088) (end 60.96 64.897) (width 1.27) (layer F.Cu) (net 15) (tstamp 531585FA))
   (segment (start 125.857 62.1665) (end 122.936 65.0875) (width 2.54) (layer B.Cu) (net 15))
-  (segment (start 111.5695 65.0875) (end 110.9345 64.4525) (width 2.54) (layer B.Cu) (net 15) (tstamp 53142643))
+  (segment (start 111.5695 65.0875) (end 111.252 64.77) (width 2.54) (layer B.Cu) (net 15) (tstamp 53142643))
+  (segment (start 111.252 64.77) (end 110.9345 64.4525) (width 2.54) (layer B.Cu) (net 15) (tstamp 53158890))
   (segment (start 122.7455 65.0875) (end 111.5695 65.0875) (width 2.54) (layer B.Cu) (net 15) (tstamp 5314262F))
   (segment (start 122.936 65.0875) (end 122.7455 65.0875) (width 2.54) (layer B.Cu) (net 15) (tstamp 531583AB))
   (segment (start 130.175 62.1665) (end 132.1435 64.135) (width 2.54) (layer B.Cu) (net 15))
