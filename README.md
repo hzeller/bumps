@@ -14,8 +14,9 @@ in progress, including learning how to use KiCad properly :)
 
 Features
    * Simple, mostly passive board with cheap components.
-   * 5V switching supply to power the BeagleBone from motor voltage (12-36V).
-   * Local 3.3V power supply to not put any strain on BBB 3.3V
+   * Single supply; no separate 5V needed:
+      * 5V switching supply to power the BeagleBone from motor voltage (12-36V).
+      * Local 3.3V power supply to not put any strain on BBB 3.3V
    * 5 slots for [Pololu-compatible][pololu-url] stepper boards.
    * 2 high power PWM (Motor voltage, ~15A)
    * 2 Open Collector PWM for smaller loads (Up to 20V, ~2A)
