@@ -2575,7 +2575,7 @@ Wire Wire Line
 	1050 6900 1400 6900
 Connection ~ 1300 6900
 Text Notes 600  6800 0    60   ~ 0
-Aux, Open Collector
+Aux, "Open Collector" (Open Drain)
 $Comp
 L LED D23
 U 1 1 5313AE29
@@ -2696,7 +2696,7 @@ $EndComp
 Wire Wire Line
 	1450 5800 1450 5850
 Text Notes 600  5350 0    60   ~ 0
-PWM, Open Collector
+PWM, "Open Collector" (Open Drain)
 $Comp
 L FDS9926A Q4
 U 2 1 5313B9E4
@@ -3074,7 +3074,7 @@ VMOT
 Connection ~ 6900 8150
 Connection ~ 6900 8300
 Text Notes 6100 8800 0    60   ~ 0
-capacitors on LEDs\naccentuate voltage transients
+capacitors on LED-resistors to\naccentuate voltage transients
 Text Notes 8850 7250 0    60   ~ 0
 place one capacitor near each motor controller
 Text Notes 8900 7900 0    60   ~ 0
