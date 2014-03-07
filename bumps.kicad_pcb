@@ -19,7 +19,7 @@
 
   (layers
     (15 F.Cu mixed)
-    (0 B.Cu mixed hide)
+    (0 B.Cu mixed)
     (17 F.Adhes user)
     (19 F.Paste user)
     (21 F.SilkS user)
