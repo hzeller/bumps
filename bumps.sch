@@ -3074,4 +3074,6 @@ Wire Wire Line
 	5800 8200 5750 8200
 Wire Wire Line
 	5750 8350 5800 8350
+Text Notes 1800 1500 2    60   ~ 0
+Aluminum or Ceramic cap
 $EndSCHEMATC
