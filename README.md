@@ -32,8 +32,10 @@ In real life
 ![Assembled][assembled]
 
   * Board fabbed by http://oshpark.com/
-  * Solder paste dispensed with github.com/jerkey 3D printer, which made it
-    to Hackaday: http://hackaday.com/2014/04/02/dispensing-solder-paste-with-a-3d-printer/
+  * Solder paste dispensed with http://github.com/jerkey 's 3D printer, using
+	a program to translate a KiCAD file to GCode (https://github.com/hzeller/rpt2paste )
+	.. the whole thing made it to Hackaday:
+	http://hackaday.com/2014/04/02/dispensing-solder-paste-with-a-3d-printer/
   * Assembled using a self-made vacuum tweezer
 	https://plus.google.com/u/0/+HennerZeller/posts/b3NbB7NzQcM
 
