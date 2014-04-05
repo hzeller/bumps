@@ -27,7 +27,11 @@ Features
 ![Schematic][schem]
 ![Board][board]
 
+First test...
+![Assembled][assembled]
+
 [beagleg-url]: https://github.com/hzeller/beagleg
 [pololu-url]: http://www.pololu.com/product/1182
 [schem]: https://github.com/hzeller/bumps/raw/master/img/bumps-schem.png
 [board]: https://github.com/hzeller/bumps/raw/master/img/bumps-board.png
+[assembled]: https://github.com/hzeller/bumps/raw/master/img/bumps-connect.jpg
