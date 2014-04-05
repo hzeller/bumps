@@ -27,7 +27,7 @@ Features
 ![Schematic][schem]
 ![Board][board]
 
-First test...
+In real life...
 ![Assembled][assembled]
 
 [beagleg-url]: https://github.com/hzeller/beagleg
