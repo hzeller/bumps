@@ -29,6 +29,8 @@
     (38 B.Mask user)
     (39 F.Mask user)
     (44 Edge.Cuts user)
+    (48 B.Fab user)
+    (49 F.Fab user)
   )
 
   (setup
