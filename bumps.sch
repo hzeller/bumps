@@ -2414,8 +2414,6 @@ Switch NC
 Wire Wire Line
 	5800 4650 5800 4700
 Wire Wire Line
-	4300 4350 4300 4450
-Wire Wire Line
 	3900 4050 4300 4050
 Wire Wire Line
 	3900 4150 4300 4150
@@ -2423,8 +2421,6 @@ Wire Wire Line
 	3900 4250 4300 4250
 Wire Wire Line
 	9950 5050 9950 5100
-Wire Wire Line
-	8450 4750 8450 4850
 Wire Wire Line
 	7250 4250 7250 4650
 Connection ~ 7250 4450
@@ -2438,8 +2434,6 @@ Wire Wire Line
 Wire Wire Line
 	9950 1750 9950 1800
 Wire Wire Line
-	8450 1450 8450 1550
-Wire Wire Line
 	7250 950  7250 1350
 Connection ~ 7250 1150
 Connection ~ 7250 1250
@@ -2452,8 +2446,6 @@ Wire Wire Line
 Wire Wire Line
 	9950 3400 9950 3450
 Wire Wire Line
-	8450 3100 8450 3200
-Wire Wire Line
 	7250 2600 7250 3000
 Connection ~ 7250 2800
 Connection ~ 7250 2900
@@ -2465,8 +2457,6 @@ Wire Wire Line
 	8050 3000 8450 3000
 Wire Wire Line
 	5800 6400 5800 6450
-Wire Wire Line
-	4300 6100 4300 6200
 Wire Wire Line
 	3100 5600 3100 6000
 Connection ~ 3100 5800
@@ -3087,4 +3077,14 @@ F 3 "" H 1650 8850 60  0000 C CNN
 $EndComp
 Text Label 850  9000 0    60   ~ 0
 Power-IN
+Text GLabel 4300 4350 0    60   Input ~ 0
+~EStop
+Text GLabel 4300 6100 0    60   Input ~ 0
+~EStop
+Text GLabel 8450 4750 0    60   Input ~ 0
+~EStop
+Text GLabel 8450 3100 0    60   Input ~ 0
+~EStop
+Text GLabel 8450 1450 0    60   Input ~ 0
+~EStop
 $EndSCHEMATC
