@@ -696,7 +696,7 @@ F 3 "" H 4200 9100 30  0000 C CNN
 	1    4200 9100
 	0    1    1    0   
 $EndComp
-Text GLabel 5100 9100 2    50   Output ~ 0
+Text GLabel 5300 9100 2    50   Output ~ 0
 VDD_5V
 $Comp
 L C C6
@@ -2474,7 +2474,7 @@ Wire Wire Line
 	2600 8050 2600 8300
 Connection ~ 4300 8050
 Wire Wire Line
-	4350 9100 5100 9100
+	4350 9100 5300 9100
 Connection ~ 4500 9100
 Wire Wire Line
 	10100 6300 10100 6350
@@ -3004,7 +3004,7 @@ Connection ~ 1050 3500
 Wire Wire Line
 	850  4350 1750 4350
 Wire Wire Line
-	1750 4450 1550 4450
+	1550 4450 1750 4450
 Connection ~ 1600 4450
 Wire Wire Line
 	1200 4700 1300 4700
@@ -3019,4 +3019,22 @@ Wire Wire Line
 Wire Wire Line
 	1050 4450 1050 4350
 Connection ~ 1050 4350
+$Comp
+L CONN_01X02 P32
+U 1 1 557449AD
+P 5450 9300
+F 0 "P32" V 5400 9300 40  0000 C CNN
+F 1 "T3" V 5500 9300 40  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 5450 9300 60  0001 C CNN
+F 3 "" H 5450 9300 60  0000 C CNN
+	1    5450 9300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 9100 5250 9250
+Connection ~ 5250 9100
+Wire Wire Line
+	5250 9350 5250 9400
+Wire Wire Line
+	5250 9400 5000 9400
 $EndSCHEMATC
