@@ -715,8 +715,9 @@ U 1 1 52EEA598
 P 4500 9250
 F 0 "C8" H 4550 9350 40  0000 L CNN
 F 1 "100u" H 4550 9150 40  0000 L CNN
-F 2 "Capacitors_SMD:c_elec_6.3x7.7" H 4600 9100 30  0001 C CNN
+F 2 "Capacitors_SMD:C_1206" H 4600 9100 30  0001 C CNN
 F 3 "" H 4500 9250 300 0000 C CNN
+F 4 "MLCC" H 4500 9250 60  0001 C CNN "Info"
 	1    4500 9250
 	1    0    0    -1  
 $EndComp
@@ -1190,13 +1191,14 @@ F 3 "" H 1350 2750 30  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L CP C12
+L C C12
 U 1 1 52F0B028
 P 6500 7550
 F 0 "C12" H 6550 7650 40  0000 L CNN
 F 1 "22u" H 6550 7450 40  0000 L CNN
-F 2 "Capacitors_SMD:c_elec_5x5.7" H 6600 7400 30  0001 C CNN
+F 2 "Capacitors_SMD:C_1206" H 6600 7400 30  0001 C CNN
 F 3 "" H 6500 7550 300 0000 C CNN
+F 4 "MLCC / X7U" V 6350 7400 60  0000 C CNN "info"
 	1    6500 7550
 	1    0    0    -1  
 $EndComp
@@ -2246,13 +2248,14 @@ F 3 "" H 5200 8450 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C17
+L C C16
 U 1 1 53186698
 P 5250 7550
-F 0 "C17" H 5250 7650 40  0000 L CNN
-F 1 "100n" H 5256 7465 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 5288 7400 30  0001 C CNN
+F 0 "C16" H 5250 7650 40  0000 L CNN
+F 1 "22u" H 5256 7465 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 5288 7400 30  0001 C CNN
 F 3 "" H 5250 7550 60  0000 C CNN
+F 4 "MLCC / X7U" H 4900 7450 60  0000 C CNN "Info"
 	1    5250 7550
 	1    0    0    -1  
 $EndComp
@@ -2272,10 +2275,10 @@ VDD_3V3
 Text Notes 4800 8050 0    60   ~ 0
 place one capacitor near each motor controller
 $Comp
-L C C16
+L C C17
 U 1 1 53187240
 P 5000 9250
-F 0 "C16" H 5000 9350 40  0000 L CNN
+F 0 "C17" H 5000 9350 40  0000 L CNN
 F 1 "100n" H 5006 9165 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 5038 9100 30  0001 C CNN
 F 3 "" H 5000 9250 60  0000 C CNN
@@ -2295,8 +2298,6 @@ F 3 "" H 5000 9400 60  0001 C CNN
 $EndComp
 Text Notes 3700 9600 0    60   ~ 0
 100n capacitor must be close
-Text Notes 4450 7650 0    60   ~ 0
-100n capacitor\nmust be close
 Text Notes 1950 1500 2    60   ~ 0
 Aluminum or Ceramic cap
 $Comp
