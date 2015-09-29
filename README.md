@@ -21,7 +21,7 @@ Features
    * 1 Emergency switch input, directly wired to hardware-reset stepper drivers.
    * 2 high power PWM (Motor voltage, ~20A)
    * 2 Open Collector PWM for smaller loads (Up to 20V, ~2A)
-   * 2 Open Collector Auxilliary Outputs (Up to 20V, ~2A)
+   * 2 Open Collector Auxiliary Outputs (Up to 20V, ~2A)
    * 3 endswitch inputs.
    * 3 temperature sensor inputs.
 
