@@ -6071,7 +6071,7 @@
   (gr_text "Stop X" (at 73.66 29.21) (layer F.SilkS)
     (effects (font (size 1.0668 1.0668) (thickness 0.2032)))
   )
-  (gr_text "V 0.2" (at 49.4665 49.3395 90) (layer F.SilkS)
+  (gr_text "V 0.4" (at 49.4665 49.3395 90) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.254)))
   )
   (gr_text "GitHub\nhzeller/bumps" (at 50.165 41.5925 90) (layer F.SilkS)
