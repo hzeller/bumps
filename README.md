@@ -3,17 +3,28 @@ Bumps
 
 > BeagleBone Universal Multi Pololu Steppers
 
-(currently: work in progress on 0.2 hardware update; find the previous working
- version from March 2014 [shared on OshPark][osh-bumps1])
+BeagleBone Black cape for [BealgeG][beagleg-url]; using 5 stepper driver modules
+from Pololu.
 
-BeagleBone Black cape hosting Pololu stepper driver boards (and derivatives).
-This helps making use of readily available drivers.
-[Version 0.1 (March 2014)][osh-bumps1] is an experimental board to make
-hacking on [BeagleG][beagleg-url] simpler, but eventually meant to help
-have a full 3D printing (and CNC) solution with BeagleBone + Bumps.
-Version 0.2 fixes some quirks of the first experimental version and will be
-ready for broader use. Branch drv8825-direct is work in progress to directly
-use the drv8825 drivers without Pololu modules.
+Bumps is an board to work together with [BeagleG][beagleg-url], a fast
+GCode system for CNC/3D printers and one of the first making use of the PRU
+of the Beaglebone Black for extremely fast step generation.
+
+Find the current version from June 2015 [shared on OshPark][osh-bumps1]. Or use
+the [Gerber files](./gerbers/bumps-gerbers.zip) directly.
+
+### Version History
+
+  * Version 0.1 March 2014 ; 5 Stepper drivers, 2 Power PWMs, 2 small PWM, 2 aux outputs.
+  * Version 0.2 June 2015; small revision of otherwise great first board (fix a missing pullup and wrong solder-mask at one place).
+
+### Current work
+Work in progress on 0.3 hardware update.
+
+Version 0.3 is work in progress with some changed FETs and other little changes
+(see illustration below) but also there is a bigger change
+(in branch drv8825-direct) work in progress to directly use the drv8825
+drivers without Pololu modules.
 
 Features
    * Simple, mostly passive board with cheap components.
@@ -28,10 +39,13 @@ Features
    * 3 endswitch inputs.
    * 3 temperature sensor inputs.
 
+The following illustrations represent the current work in progress:
+
 ![Schematic][schem]
 ![Board][board]
 
-In real life
+In real life, the March 2014 version (essentially identical to the June 2015
+version):
 
 ![Assembled][assembled]
 
@@ -42,10 +56,11 @@ In real life
 	http://hackaday.com/2014/04/02/dispensing-solder-paste-with-a-3d-printer/
   * Assembled using a self-made vacuum tweezer
 	https://plus.google.com/u/0/+HennerZeller/posts/b3NbB7NzQcM
+  * Early test of the system http://youtu.be/hIEY9077D64
 
 [beagleg-url]: https://github.com/hzeller/beagleg
 [pololu-url]: http://www.pololu.com/product/1182
 [schem]: https://github.com/hzeller/bumps/raw/master/img/bumps-schem.png
 [board]: https://github.com/hzeller/bumps/raw/master/img/bumps-board.png
 [assembled]: https://github.com/hzeller/bumps/raw/master/img/bumps-connect.jpg
-[osh-bumps1]: https://oshpark.com/shared_projects/TYmqzM19
+[osh-bumps1]: https://oshpark.com/shared_projects/zIXfRqDE
