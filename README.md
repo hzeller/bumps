@@ -3,14 +3,17 @@ Bumps
 
 > BeagleBone Universal Multi Pololu Steppers
 
-(currently: work in progress on 0.2 hardware update)
+(currently: work in progress on 0.2 hardware update; find the previous working
+ version from March 2014 [shared on OshPark][osh-bumps1])
 
 BeagleBone Black cape hosting Pololu stepper driver boards (and derivatives).
 This helps making use of readily available drivers.
-Version 0.1 (March 2014) is an experimental board to make hacking on [BeagleG][beagleg-url]
-simpler, but eventually meant to help have a full 3D printing
-(and CNC) solution with BeagleBone + Bumps. Version 0.2 fixes some quirks of the first
-experimental version and will be ready for broader use.
+[Version 0.1 (March 2014)][osh-bumps1] is an experimental board to make
+hacking on [BeagleG][beagleg-url] simpler, but eventually meant to help
+have a full 3D printing (and CNC) solution with BeagleBone + Bumps.
+Version 0.2 fixes some quirks of the first experimental version and will be
+ready for broader use. Branch drv8825-direct is work in progress to directly
+use the drv8825 drivers without Pololu modules.
 
 Features
    * Simple, mostly passive board with cheap components.
@@ -45,3 +48,4 @@ In real life
 [schem]: https://github.com/hzeller/bumps/raw/master/img/bumps-schem.png
 [board]: https://github.com/hzeller/bumps/raw/master/img/bumps-board.png
 [assembled]: https://github.com/hzeller/bumps/raw/master/img/bumps-connect.jpg
+[osh-bumps1]: https://oshpark.com/shared_projects/TYmqzM19
