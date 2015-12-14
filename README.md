@@ -3,7 +3,7 @@ Bumps
 
 > BeagleBone Universal Multi Pololu Steppers
 
-BeagleBone Black cape for [BealgeG][beagleg-url]; using 5 stepper driver modules
+BeagleBone Black cape for [BeagleG][beagleg-url]; using 5 stepper driver modules
 from Pololu.
 
 Bumps is an board to work together with [BeagleG][beagleg-url], a fast
