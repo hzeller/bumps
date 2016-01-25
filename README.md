@@ -3,16 +3,23 @@ Bumps
 
 > BeagleBone Universal Multi Pololu Steppers
 
-BeagleBone Black cape hosting Pololu stepper driver boards (and derivatives).
-This helps making use of readily available drivers.
-Right now just an experimental board to make hacking on [BeagleG][beagleg-url]
-simpler, but eventually meant to help have a full 3D printing
-(and CNC) solution with BeagleBone + Bumps.
+BeagleBone Black cape for [BeagleG][beagleg-url]; using 5 stepper driver modules
+from Pololu.
 
-Don't rely on anything here, this is likely to change. This is very much work
-in progress, including learning how to use KiCad properly :)
+Bumps is an board to work together with [BeagleG][beagleg-url], a fast
+GCode system for CNC/3D printers and one of the first making use of the PRU
+of the Beaglebone Black for extremely fast step generation.
 
-Features
+Find this Revision 0.2 from June 2015 [shared on OshPark][osh-bumps1]. Or use
+the [Gerber files](./gerbers/bumps-gerbers.zip) directly.
+
+### Version History
+
+  * Version 0.1 March 2014 ; 5 Stepper drivers, 2 Power PWMs, 2 small PWM, 2 aux outputs.
+  * Version 0.2 June 2015; small revision of otherwise great first board (fix a missing pullup and wrong solder-mask at one place).
+  * Version 0.3 - work in progress in master branch.
+
+### Features
    * Simple, mostly passive board with cheap components.
    * Single supply; no separate 5V needed:
       * 5V switching supply to power the BeagleBone from motor voltage (12-36V).
@@ -41,6 +48,7 @@ In real life
 
 [beagleg-url]: https://github.com/hzeller/beagleg
 [pololu-url]: http://www.pololu.com/product/1182
-[schem]: https://github.com/hzeller/bumps/raw/master/img/bumps-schem.png
-[board]: https://github.com/hzeller/bumps/raw/master/img/bumps-board.png
-[assembled]: https://github.com/hzeller/bumps/raw/master/img/bumps-connect.jpg
+[schem]: ./img/bumps-schem.png
+[board]: ./img/bumps-board.png
+[assembled]: ./img/bumps-connect.jpg
+[osh-bumps1]: https://oshpark.com/shared_projects/zIXfRqD
